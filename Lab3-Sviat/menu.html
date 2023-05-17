@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>меню</title>
+  </head>
+
+  <body>
+    <header class="header-menu">
+      <div class="container">
+        <div class="header-line">
+          <div class="header-logo">
+            <img src="images/logo.png" alt="" />
+          </div>
+
+          <nav class="nav">
+            <a class="nav-item" href="index.html" target="_blank">ГОЛОВНА</a>
+            <a class="nav-item current" href="menu.html" target="_blank"
+              >МЕНЮ</a
+            > 
+            <a class="nav-item" href="onas.html" target="_blank">ПРО НАС</a>
+            <a class="nav-item" href="bron.html" target="_blank">БРОНЬ</a>
+          </nav>
+
+          <div class="cart">
+            <a href="basket.html">
+              <img class="cart-img" src="images/cart.png" alt="" />
+            </a>
+          </div>
+
+          <address class="phone">
+            <div class="phone-holder">
+              <div class="phone-img">
+                <img src="images/phone.png" alt="" />
+              </div>
+              <div class="number">
+                <a class="num" href="tel:+380663513433">+38(066)-351-34-33</a>
+              </div>
+            </div>
+
+            <div class="phone-text">
+              Зв'яжіться з нами для <br />
+              бронювання
+            </div>
+          </address>
+
+          <div class="btn">
+            <a class="button" href="bron.html">ЗАМОВЛЕННЯ СТОЛИКУ</a>
+          </div>
+
+          <div class="burger-menu">
+            <button id="burger">
+              <img src="images/burger-img.png" alt="" />
+            </button>
+
+            <div id="menu" class="burger-slide disp">
+              <a class="nav-item" href="index.html">ГОЛОВНА</a>
+              <a class="nav-item" href="menu.html">МЕНЮ</a>
+              <a class="nav-item" href="onas.html">ПРО НАС</a>
+              <a class="nav-item" href="bron.html">БРОНЬ</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+<!--    <section class="dishes">-->
+<!--      <div class="container">-->
+<!--        <div class="dishes-title">Наші <span>Страви</span></div>-->
+
+<!--        <div class="burgers">-->
+<!--          <div class="burgers-image">-->
+<!--            <img src="pizza.jpg" class="pizza" alt="" />-->
+<!--          </div>-->
+
+<!--          <div class="burgers-items">-->
+<!--            <div class="burger-item">-->
+<!--              <img src="images/burger.jpg" class="" alt="" />-->
+<!--              <div class="burger-text">Гамбургер міні &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45; 220 ₴</div>-->
+<!--            </div>-->
+
+<!--            <div class="burger-item">-->
+<!--              <img src="images/burger.jpg" class="" alt="" />-->
+<!--              <div class="burger-text">Гамбургер міні &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45; 220 ₴</div>-->
+<!--            </div>-->
+
+<!--            <div class="burger-item">-->
+<!--              <img src="images/burger.jpg" class="" alt="" />-->
+<!--              <div class="burger-text">Гамбургер міні &#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45; 220 ₴</div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </section>-->
+    <section>
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-12 text-center">
+            <button class="btn btn-primary text-uppercase text-center" id="show-products-btn">Показати
+              товари
+            </button>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="row mt-4 text-center d-flex justify-content-center" id="products-container">
+           
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu">
+      <div class="container">
+        <div class="menu-title">Наше меню</div>
+
+        <div class="menu-items">
+          <div class="menu-item">
+            <div class="menu-image">
+              <img src="images/burger-i.jpg" class="menu-img" alt="" />
+            </div>
+
+            <div class="menu-text">Гамбургер максі</div>
+
+            <div class="menu-subtext">
+              Максимально товстий <br />
+              слой м'яса
+            </div>
+
+            <div class="menu-button">
+              <a href="#" class="menu-btn">ЗАМОВИТИ</a>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-image">
+              <img src="images/burger-i.jpg" class="menu-img" alt="" />
+            </div>
+
+            <div class="menu-text">Гамбургер максі</div>
+
+            <div class="menu-subtext">
+              Максимально товстий <br />
+              слой м'яса
+            </div>
+
+            <div class="menu-button">
+              <a href="#" class="menu-btn">ЗАМОВИТИ</a>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-image">
+              <img src="images/burger-i.jpg" class="menu-img" alt="" />
+            </div>
+
+            <div class="menu-text">Гамбургер максі</div>
+
+            <div class="menu-subtext">
+              Максимально товстий <br />
+              слой м'яса
+            </div>
+
+            <div class="menu-button">
+              <a href="#" class="menu-btn">ЗАМОВИТИ</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <button id="scrollToTopBtn">Наверх</button>
+
+    <footer class="footer">
+      <div class="footer-logo">
+        <a href="index.html"><img src="images/logo.png" alt="" /></a>
+      </div>
+      <address>
+        <ul class="footer-address">
+          <li>
+            <a
+              class="num"
+              href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >м. Київ, пр-т Лесі Украінки, 26</a
+            >
+          </li>
+          <li>
+            <a class="num" href="mailto:programmer22345@gmail.com">
+              programmer22345@gmail.com</a
+            >
+          </li>
+          <li>
+            <a class="num" href="tel:+380663513433">+38(066)-351-34-33</a>
+          </li>
+        </ul>
+      </address>
+      <p class="footer-date">2022</p>
+    </footer>
+    <!-- Модальне вікно про підписку -->
+    <div class="modal" id="subscribeModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Підписатися на повідомлення</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Підпишіться на наші повідомлення, щоб отримувати новини та спеціальні пропозиції!</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Відхилити</button>
+            <button type="button" class="btn btn-primary" id="subscribeButton">Підписатися</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal">
+      <div id="modal-content">
+        <div id="close-btn"></div>
+        <img src="images/burger-1.jpg" width="135" height="135" alt="Реклама">
+        <div id="timer"></div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="scrollToTopButton.js"></script>
+    <script src="menu.js"></script>
+  </body>
+</html>

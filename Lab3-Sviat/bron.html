@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="stylebron.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Бронь</title>
+  </head>
+  <body>
+    <header class="header-menu">
+      <div class="container">
+        <div class="header-line">
+          <div class="header-logo">
+            <img src="images/logo.png" alt="" />
+          </div>
+
+          <nav class="nav">
+            <a class="nav-item" href="index.html" target="_blank">ГОЛОВНА</a>
+            <a class="nav-item" href="menu.html" target="_blank">МЕНЮ</a>
+            <a class="nav-item" href="onas.html" target="_blank">ПРО НАС</a>
+            <a class="nav-item current" href="bron.html" target="_blank">БРОНЬ</a>
+          </nav>
+
+          <div class="cart">
+            <a href="basket.html">
+              <img class="cart-img" src="images/cart.png" alt="" />
+            </a>
+          </div>
+
+          <address class="phone">
+            <div class="phone-holder">
+              <div class="phone-img">
+                <img src="images/phone.png" alt="" />
+              </div>
+              <div class="number">
+                <a class="num" href="tel:+380663513433">+38(066)-351-34-33</a>
+              </div>
+            </div>
+
+            <div class="phone-text">
+              Зв'яжіться з нами для <br />
+              бронювання
+            </div>
+          </address>
+
+          <!-- <div class="btn">
+            <a class="button" href="bron.html">ЗАМОВЛЕННЯ СТОЛИКУ</a>
+          </div> -->
+
+          <div class="burger-menu">
+            <button id="burger">
+              <img src="images/burger-img.png" />
+            </button>
+
+            <div id="menu" class="burger-slide disp">
+              <a class="nav-item" href="index.html">ГОЛОВНА</a>
+              <a class="nav-item" href="menu.html">МЕНЮ</a>
+              <a class="nav-item" href="onas.html">ПРО НАС</a>
+              <a class="nav-item" href="bron.html">БРОНЬ</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+     <main>
+    <section class="container">
+      <div class="bron">
+        <div class="img-right">
+            <img src="images/right-side.jpg" alt="">
+        </div>
+          <form class="form">
+            <div class="title-bron"></div>
+            <h3><span class="title-br">Бронювання</span> <br> <span class="title-stl"> столика</span> </h3>
+            
+            <div class="user">
+                      <div class="input_user">
+              <input type="text" placeholder="Ім'я">
+            </div>
+            <div class="inpt_wrap date">
+              <input id="datepicker" type="text" placeholder="Дата" >
+            </div>
+            <div class="inpt_wrap time">
+              <input type="text" placeholder="Година">
+            </div>
+            <div class="inpt_wrap amount">
+              <input type="number" placeholder="Кількість людей">
+            </div>
+            <div class="inpt_wrap phone">
+              <input type="text" placeholder="Телефон">
+            </div>
+            <div class="inpt_wrap post">
+              <input type="text" placeholder="Пошта">
+            </div>
+            <div class="inpt_wrap num">
+              <input type="text" placeholder="Номер постійного клієнта">
+            </div>
+            <input type="submit" value="Бронювання">
+          </form>
+          
+        </div>
+        <div class="img-left">
+          <img src="images/left-side.jpg" alt="">
+        </div>
+      </div>
+        
+    
+    </div>
+    </section>
+</main> 
+
+<button id="scrollToTopBtn">Наверх</button>
+
+<footer class="footer">
+  <div class="footer-logo">
+    <a href="index.html"><img src="images/logo.png" alt="" /></a>
+  </div>
+  <address>
+    <ul class="footer-address">
+      <li>
+        <a
+          class="num"
+          href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          >м. Київ, пр-т Лесі Украінки, 26</a
+        >
+      </li>
+      <li>
+        <a class="num" href="mailto:programmer22345@gmail.com">
+          programmer22345@gmail.com</a
+        >
+      </li>
+      <li>
+        <a class="num" href="tel:+380663513433">+38(066)-351-34-33</a>
+      </li>
+    </ul>
+  </address>
+  <p class="footer-date">2022</p>
+</footer>
+
+    <!-- Модальне вікно про підписку -->
+    <div class="modal" id="subscribeModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Підписатися на повідомлення</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Підпишіться на наші повідомлення, щоб отримувати новини та спеціальні пропозиції!</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Відхилити</button>
+            <button type="button" class="btn btn-primary" id="subscribeButton">Підписатися</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="app.js"></script>
+    <script src="scrollToTopButton.js"></script>
+  </body>
+</html>
